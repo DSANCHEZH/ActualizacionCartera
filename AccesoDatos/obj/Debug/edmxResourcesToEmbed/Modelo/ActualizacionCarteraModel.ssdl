@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRUEBAS49DNModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PRUEBAS49DNModelStoreContainer" />
+  <Function Name="proc_ConfiguracionSelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="proc_CorreosSolicitudesPendientesDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_Solicitud" Type="int" Mode="In" />
+    <Parameter Name="FL_VALOR_RETORNO" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="proc_CorreosSolicitudesPendientesInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_Solicitud" Type="int" Mode="In" />
+    <Parameter Name="Prioridad_Envio" Type="int" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="Asunto_Correo" Type="text" Mode="In" />
+    <Parameter Name="Cuerpo_Correo" Type="text" Mode="In" />
+    <Parameter Name="Estatus" Type="nvarchar" Mode="In" />
+    <Parameter Name="FL_VALOR_RETORNO" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="proc_CorreosSolicitudesPendientesSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_Empleado" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="proc_CorreosSolicitudesPendientesSelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="proc_CorreosSolicitudesPendientesUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="ID_Solicitud" Type="int" Mode="In" />
+    <Parameter Name="Prioridad_Envio" Type="int" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="Asunto_Correo" Type="text" Mode="In" />
+    <Parameter Name="Cuerpo_Correo" Type="text" Mode="In" />
+    <Parameter Name="Estatus" Type="nvarchar" Mode="In" />
+    <Parameter Name="FL_VALOR_RETORNO" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="proc_SolicitudesEliminacionPeriodica" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FL_VALOR_RETORNO" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="SIG_INSERTA_BITACORA_SOLICITUDES_PENDIENTES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="P_CLAVE" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_MENSAJE" Type="nvarchar" Mode="In" />
+  </Function>
+</Schema>

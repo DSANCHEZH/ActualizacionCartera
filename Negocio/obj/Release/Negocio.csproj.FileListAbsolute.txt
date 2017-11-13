@@ -1,0 +1,12 @@
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\Negocio.exe.config
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\Negocio.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\Negocio.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\AccesoDatos.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\Entidades.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\EntityFramework.dll
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\AccesoDatos.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\Entidades.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\bin\Release\EntityFramework.xml
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\obj\Release\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\obj\Release\Negocio.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Negocio\obj\Release\Negocio.pdb

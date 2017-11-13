@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PRUEBAS49DNModelStoreContainer" CdmEntityContainer="ActualizacionCarteraEntities">
+    <FunctionImportMapping FunctionImportName="proc_CorreosSolicitudesPendientesInsert" FunctionName="PRUEBAS49DNModel.Store.proc_CorreosSolicitudesPendientesInsert" />
+    <FunctionImportMapping FunctionImportName="proc_CorreosSolicitudesPendientesSelect" FunctionName="PRUEBAS49DNModel.Store.proc_CorreosSolicitudesPendientesSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PRUEBAS49DNModel.proc_CorreosSolicitudesPendientesSelect_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_Empleado" ColumnName="ID_Empleado" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AsuntoCorreo" ColumnName="AsuntoCorreo" />
+          <ScalarProperty Name="CuerpoCorreo" ColumnName="CuerpoCorreo" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="FechaEnvio" ColumnName="FechaEnvio" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="proc_CorreosSolicitudesPendientesSelectAll" FunctionName="PRUEBAS49DNModel.Store.proc_CorreosSolicitudesPendientesSelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PRUEBAS49DNModel.proc_CorreosSolicitudesPendientesSelectAll_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_Solicitud" ColumnName="ID_Solicitud" />
+          <ScalarProperty Name="MailItem_ID" ColumnName="MailItem_ID" />
+          <ScalarProperty Name="PrioridadEnvio" ColumnName="PrioridadEnvio" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AsuntoCorreo" ColumnName="AsuntoCorreo" />
+          <ScalarProperty Name="CuerpoCorreo" ColumnName="CuerpoCorreo" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="proc_CorreosSolicitudesPendientesUpdate" FunctionName="PRUEBAS49DNModel.Store.proc_CorreosSolicitudesPendientesUpdate" />
+    <FunctionImportMapping FunctionImportName="proc_SolicitudesEliminacionPeriodica" FunctionName="PRUEBAS49DNModel.Store.proc_SolicitudesEliminacionPeriodica" />
+    <FunctionImportMapping FunctionImportName="proc_ConfiguracionSelectAll" FunctionName="PRUEBAS49DNModel.Store.proc_ConfiguracionSelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PRUEBAS49DNModel.proc_ConfiguracionSelectAll_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NombreCompañia" ColumnName="NombreCompañia" />
+          <ScalarProperty Name="MensajeBienvenida" ColumnName="MensajeBienvenida" />
+          <ScalarProperty Name="MensajeDespedida" ColumnName="MensajeDespedida" />
+          <ScalarProperty Name="LicenseBytes" ColumnName="LicenseBytes" />
+          <ScalarProperty Name="CuerpoCorreoSolicitudCuestionarios" ColumnName="CuerpoCorreoSolicitudCuestionarios" />
+          <ScalarProperty Name="URLCuestionarios" ColumnName="URLCuestionarios" />
+          <ScalarProperty Name="MailHost" ColumnName="MailHost" />
+          <ScalarProperty Name="MailUserName" ColumnName="MailUserName" />
+          <ScalarProperty Name="MailUserPassword" ColumnName="MailUserPassword" />
+          <ScalarProperty Name="MailFrom" ColumnName="MailFrom" />
+          <ScalarProperty Name="MailPort" ColumnName="MailPort" />
+          <ScalarProperty Name="MailEnableSsl" ColumnName="MailEnableSsl" />
+          <ScalarProperty Name="MostrarNombreConsultaPersonasIdoneas" ColumnName="MostrarNombreConsultaPersonasIdoneas" />
+          <ScalarProperty Name="DebugInfo" ColumnName="DebugInfo" />
+          <ScalarProperty Name="InstruccionesSolicitud" ColumnName="InstruccionesSolicitud" />
+          <ScalarProperty Name="ConsultasParcialesIntegracion" ColumnName="ConsultasParcialesIntegracion" />
+          <ScalarProperty Name="IgnorarCompetenciasReq0" ColumnName="IgnorarCompetenciasReq0" />
+          <ScalarProperty Name="SecuenciaValidacion" ColumnName="SecuenciaValidacion" />
+          <ScalarProperty Name="CuerpoCorreoSolicitudCuestionarios_EN" ColumnName="CuerpoCorreoSolicitudCuestionarios_EN" />
+          <ScalarProperty Name="AvisoPrivacidad" ColumnName="AvisoPrivacidad" />
+          <ScalarProperty Name="AvisoPiePagina" ColumnName="AvisoPiePagina" />
+          <ScalarProperty Name="MostrarAviso" ColumnName="MostrarAviso" />
+          <ScalarProperty Name="MostrarAvisoPiePagina" ColumnName="MostrarAvisoPiePagina" />
+          <ScalarProperty Name="AsignaPassManual" ColumnName="AsignaPassManual" />
+          <ScalarProperty Name="AsignaPassAuto" ColumnName="AsignaPassAuto" />
+          <ScalarProperty Name="PeriodoCantidadBorradoCartera" ColumnName="PeriodoCantidadBorradoCartera" />
+          <ScalarProperty Name="FechaVerificacionBorrarCartera" ColumnName="FechaVerificacionBorrarCartera" />
+          <ScalarProperty Name="AsuntoSolicitudes" ColumnName="AsuntoSolicitudes" />
+          <ScalarProperty Name="CuerpoSolicitudes" ColumnName="CuerpoSolicitudes" />
+          <ScalarProperty Name="CuerpoSolicitudesEN" ColumnName="CuerpoSolicitudesEN" />
+          <ScalarProperty Name="EnviarNotificacion" ColumnName="EnviarNotificacion" />
+          <ScalarProperty Name="MostrarCronometroPruebas" ColumnName="MostrarCronometroPruebas" />
+          <ScalarProperty Name="TiempoPerLab1" ColumnName="TiempoPerLab1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="proc_CorreosSolicitudesPendientesDelete" FunctionName="PRUEBAS49DNModel.Store.proc_CorreosSolicitudesPendientesDelete" />
+    <FunctionImportMapping FunctionImportName="SIG_INSERTA_BITACORA_SOLICITUDES_PENDIENTES" FunctionName="PRUEBAS49DNModel.Store.SIG_INSERTA_BITACORA_SOLICITUDES_PENDIENTES" />
+  </EntityContainerMapping>
+</Mapping>

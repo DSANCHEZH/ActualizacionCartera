@@ -1,0 +1,14 @@
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\ActuaalizacionCartera.exe.config
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\ActuaalizacionCartera.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\ActuaalizacionCartera.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\Entidades.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\Negocio.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\AccesoDatos.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\EntityFramework.dll
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\Entidades.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\Negocio.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\AccesoDatos.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\bin\Release\EntityFramework.xml
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\obj\Release\ActualizacionCartera.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\obj\Release\ActuaalizacionCartera.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\ActuaalizacionCartera\obj\Release\ActuaalizacionCartera.pdb

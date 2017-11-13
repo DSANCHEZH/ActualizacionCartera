@@ -1,0 +1,10 @@
+c:\users\gabriel.corona\documents\visual studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\AccesoDatos.exe.config
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\AccesoDatos.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\Entidades.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\obj\Debug\AccesoDatos.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\AccesoDatos\obj\Debug\AccesoDatos.pdb

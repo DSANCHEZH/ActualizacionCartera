@@ -1,0 +1,6 @@
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Entidades\bin\Release\Entidades.exe.config
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Entidades\bin\Release\Entidades.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Entidades\bin\Release\Entidades.pdb
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Entidades\obj\Release\Entidades.exe
+C:\Users\gabriel.corona\Documents\Visual Studio 2012\Projects\ActuaalizacionCartera\Entidades\obj\Release\Entidades.pdb

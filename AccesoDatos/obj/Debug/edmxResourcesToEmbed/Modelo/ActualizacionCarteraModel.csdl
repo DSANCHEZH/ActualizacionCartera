@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRUEBAS49DNModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ActualizacionCarteraEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="proc_CorreosSolicitudesPendientesInsert">
+      <Parameter Name="ID_Solicitud" Mode="In" Type="Int32" />
+      <Parameter Name="Prioridad_Envio" Mode="In" Type="Int32" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Asunto_Correo" Mode="In" Type="String" />
+      <Parameter Name="Cuerpo_Correo" Mode="In" Type="String" />
+      <Parameter Name="Estatus" Mode="In" Type="String" />
+      <Parameter Name="FL_VALOR_RETORNO" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_CorreosSolicitudesPendientesSelect" ReturnType="Collection(PRUEBAS49DNModel.proc_CorreosSolicitudesPendientesSelect_Result)">
+      <Parameter Name="ID_Empleado" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_CorreosSolicitudesPendientesSelectAll" ReturnType="Collection(PRUEBAS49DNModel.proc_CorreosSolicitudesPendientesSelectAll_Result)" />
+    <FunctionImport Name="proc_CorreosSolicitudesPendientesUpdate">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="ID_Solicitud" Mode="In" Type="Int32" />
+      <Parameter Name="Prioridad_Envio" Mode="In" Type="Int32" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Asunto_Correo" Mode="In" Type="String" />
+      <Parameter Name="Cuerpo_Correo" Mode="In" Type="String" />
+      <Parameter Name="Estatus" Mode="In" Type="String" />
+      <Parameter Name="FL_VALOR_RETORNO" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_SolicitudesEliminacionPeriodica">
+      <Parameter Name="FL_VALOR_RETORNO" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_ConfiguracionSelectAll" ReturnType="Collection(PRUEBAS49DNModel.proc_ConfiguracionSelectAll_Result)" />
+    <FunctionImport Name="proc_CorreosSolicitudesPendientesDelete">
+      <Parameter Name="ID_Solicitud" Mode="In" Type="Int32" />
+      <Parameter Name="FL_VALOR_RETORNO" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SIG_INSERTA_BITACORA_SOLICITUDES_PENDIENTES">
+      <Parameter Name="P_CLAVE" Mode="In" Type="String" />
+      <Parameter Name="P_MENSAJE" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="proc_CorreosSolicitudesPendientesSelect_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ID_Empleado" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AsuntoCorreo" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="CuerpoCorreo" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="Estatus" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEnvio" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="proc_CorreosSolicitudesPendientesSelectAll_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="ID_Solicitud" Nullable="false" />
+    <Property Type="Int32" Name="MailItem_ID" Nullable="true" />
+    <Property Type="Int32" Name="PrioridadEnvio" Nullable="true" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AsuntoCorreo" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="CuerpoCorreo" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="Estatus" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="proc_ConfiguracionSelectAll_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="NombreCompañia" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MensajeBienvenida" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="MensajeDespedida" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="LicenseBytes" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CuerpoCorreoSolicitudCuestionarios" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="URLCuestionarios" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="MailHost" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MailUserName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MailUserPassword" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MailFrom" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="MailPort" Nullable="true" />
+    <Property Type="Boolean" Name="MailEnableSsl" Nullable="true" />
+    <Property Type="Boolean" Name="MostrarNombreConsultaPersonasIdoneas" Nullable="true" />
+    <Property Type="String" Name="DebugInfo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="InstruccionesSolicitud" Nullable="true" MaxLength="Max" />
+    <Property Type="Boolean" Name="ConsultasParcialesIntegracion" Nullable="true" />
+    <Property Type="Boolean" Name="IgnorarCompetenciasReq0" Nullable="true" />
+    <Property Type="String" Name="SecuenciaValidacion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CuerpoCorreoSolicitudCuestionarios_EN" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="AvisoPrivacidad" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="AvisoPiePagina" Nullable="true" MaxLength="Max" />
+    <Property Type="Boolean" Name="MostrarAviso" Nullable="true" />
+    <Property Type="Boolean" Name="MostrarAvisoPiePagina" Nullable="true" />
+    <Property Type="Boolean" Name="AsignaPassManual" Nullable="true" />
+    <Property Type="Boolean" Name="AsignaPassAuto" Nullable="true" />
+    <Property Type="String" Name="PeriodoCantidadBorradoCartera" Nullable="true" MaxLength="25" />
+    <Property Type="DateTime" Name="FechaVerificacionBorrarCartera" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AsuntoSolicitudes" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="CuerpoSolicitudes" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="CuerpoSolicitudesEN" Nullable="true" MaxLength="Max" />
+    <Property Type="Boolean" Name="EnviarNotificacion" Nullable="true" />
+    <Property Type="Boolean" Name="MostrarCronometroPruebas" Nullable="true" />
+    <Property Type="String" Name="TiempoPerLab1" Nullable="true" MaxLength="8" />
+  </ComplexType>
+</Schema>
